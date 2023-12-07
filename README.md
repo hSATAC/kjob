@@ -19,7 +19,7 @@ Create a suspended CronJob that will serve as a template:
 
 ```bash
 cat <<EOF | kubectl apply -f -
-apiVersion: batch/v1beta1
+apiVersion: batch/v1
 kind: CronJob
 metadata:
   name: curl
